@@ -1,10 +1,3 @@
-typedef unsigned char u8;
-typedef signed char s8;
-typedef unsigned int u32;
-typedef signed int s32;
-extern void i2c_send(u8 sa,u8 mr_addr,u8 data);
-extern void i2c_init(void);
-extern u8 i2c_receive(u8 sa,u8 mr_addr);
 extern void UART0_init(unsigned int baud);
 extern void UART0_tx(unsigned char data);
 extern void UART0_tx_string(char *ptr);
