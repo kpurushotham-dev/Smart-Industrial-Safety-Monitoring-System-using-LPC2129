@@ -24,6 +24,7 @@ The system displays temperature and safety status on a 16×2 LCD, transmits moni
 - Buzzer (optional)
 
 ## Software Requirements
+
 - Keil µVision 5
 - Proteus Design Suite
 - Embedded C
